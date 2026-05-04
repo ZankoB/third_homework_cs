@@ -14,6 +14,7 @@ You are given a program that computes **scaled dot-product attention scores** â€
 ## Stencil kernel (3 points)
 
 The heat diffusion equation is a partial differential equation (PDE) that describes the distribution of temperature in a given region over time. In 1D setting it is
+
 $$\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$$.
 
 The provided program computes one time step of heat diffusion using a **3-point stencil**:
