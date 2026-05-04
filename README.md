@@ -17,7 +17,7 @@ The heat diffusion equation is a partial differential equation (PDE) that descri
 
 $$\frac{\partial u}{\partial t} = \alpha \frac{\partial^2 u}{\partial x^2}$$
 
-The provided program computes one time step of heat diffusion using a **3-point stencil**:
+The provided program computes one time step of heat diffusion difference equation using a **3-point stencil**:
 
 $$u_{new}[i] = u[i] + \alpha \cdot (u[i-1] - 2 \cdot u[i] + u[i+1])$$
 
