@@ -1,7 +1,7 @@
 # Third homework assignment
 
 
-## Vectorizing kernel (5 points)
+## Vectorizing kernel (4 points)
 
 You are given a program that computes **scaled dot-product attention scores** — the core non-GEMM operation in Transformer models. The source code is located in the `workload/scaled_dot_product` folder. Your task is to vectorize the kernel using RVV instructions and analyze the performance improvement compared to a scalar implementation. Ensure that your implementation is correct and produces the same results as the original scalar version. 
 
@@ -32,7 +32,7 @@ You are given both a scalar and a vectorized implementation, which is located in
 
 > In all experiments, set the O3 processor as scalar processor, with default settings.
 
-## Sparse matrix-vector multiplication (2 points)
+## Sparse matrix-vector multiplication (3 points)
 
 The provided program computes **Sparse Matrix-Vector Multiplication (SpMV)**: given a vector of non-zero values `val[]`, a source vector `x[]`, and column indices `col[]`, it accumulates:
 
