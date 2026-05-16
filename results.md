@@ -42,18 +42,18 @@
 ### 8KB L1 Cache Size
 | Kernel Pattern   | VPU Size (bits) | CPI | L1 Cache Misses |
 |------------------|-----------------|-----|-----------------|
-| Unit-stride      | 256             |     |                 |
-| Unit-stride      | 512             |     |                 |
-| Unit-stride      | 1024            |     |                 |
-| Strided          | 256             |     |                 |
-| Strided          | 512             |     |                 |
-| Strided          | 1024            |     |                 |
-| Gather (sorted)  | 256             |     |                 |
-| Gather (sorted)  | 512             |     |                 |
-| Gather (sorted)  | 1024            |     |                 |
-| Gather (random)  | 256             |     |                 |
-| Gather (random)  | 512             |     |                 |
-| Gather (random)  | 1024            |     |                 |
+| Unit-stride      | 256             | 2.504482 | 32         |
+| Unit-stride      | 512             | 2.572486 | 41         |
+| Unit-stride      | 1024            | 2.711817 | 44         |
+| Strided          | 256             | 2.562149 | 107        |
+| Strided          | 512             | 3.579013 | 613        |
+| Strided          | 1024            | 4.276478 | 820        |
+| Gather (sorted)  | 256             | 2.453685 | 37         |
+| Gather (sorted)  | 512             | 2.558479 | 53         |
+| Gather (sorted)  | 1024            | 2.647485 | 69         |
+| Gather (random)  | 256             | 3.106025 | 515        |
+| Gather (random)  | 512             | 3.363072 | 535        |
+| Gather (random)  | 1024            | 3.866654 | 569        |
 
 ### 64KB L1 Cache Size
 | Kernel Pattern   | VPU Size (bits) | CPI | L1 Cache Misses |
